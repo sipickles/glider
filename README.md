@@ -8,4 +8,4 @@ Run Masterminds/Glide in a centos container from OSX
 
 ## Run
     cd <golang_repo>
-    docker run -it -v $(pwd):/code -v ~/.ssh:/root/.ssh glider
+    docker run -it -v $(pwd):/code -v ~/.ssh:/root/.ssh -e SSH_KEY=<sshkeytouse> glider
