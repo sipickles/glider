@@ -1,4 +1,3 @@
 eval $(ssh-agent)
-ssh-add ~/.ssh/pickles_bitbucket
-
+ssh-add ~/.ssh/$SSH_KEY
 glide up
